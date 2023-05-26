@@ -5,12 +5,12 @@
 
 
 ## Commands Used:
-`terraform init`
-`terraform plan`
-terraform apply -auto-approve -var=db_password=<your RDS db password>
-`curl <alb_public_url>`
-`terraform output`
-`ssh -i TerraformKey.pem ubuntu@<EC2 public IP>`
-`mysql --host=<database_endpoint_address> --user=<master db username> -p`
-`SHOW DATABASES;`
+`terraform init`<br/>
+`terraform plan`<br/>
+`terraform apply -auto-approve -var=db_password=<your RDS db password>`<br/>
+`curl <alb_public_url>`<br/>
+`terraform output`<br/>
+`ssh -i TerraformKey.pem ubuntu@<EC2 public IP>`<br/>
+`mysql --host=<database_endpoint_address> --user=<master db username> -p`<br/>
+`SHOW DATABASES;`<br/>
 `terraform destroy -auto-approve -var=db_password=<your db password>`
