@@ -30,5 +30,5 @@ terraform apply -auto-approve -var=db_password=<your RDS db password>
 ### List databases
 `SHOW DATABASES;`
 
-### Tear down infrastructure deployed by Terraform
+### destroy all resources
 `terraform destroy -auto-approve -var=db_password=<your db password>`
