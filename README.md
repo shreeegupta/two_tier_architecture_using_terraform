@@ -9,12 +9,6 @@
 ### Initialize working directory and backend
 `terraform init`
 
-### Resolve Terraform code formatting issues
-`terraform fmt`
-
-### Validate Terraform code
-`terraform validate`
-
 ### Preview changes Terraform plans to make
 `terraform plan`
 
@@ -28,7 +22,7 @@ terraform apply -auto-approve -var=db_password=<your RDS db password>
 `terraform output`
 
 ### SSH to EC2 Web Server
-`ssh -i MySSHKey.pem ubuntu@<EC2 public IP>`
+`ssh -i TerraformKey.pem ubuntu@<EC2 public IP>`
 
 ### Connect to MySQL instance from Web Server
 `mysql --host=<database_endpoint_address> --user=<master db username> -p`
